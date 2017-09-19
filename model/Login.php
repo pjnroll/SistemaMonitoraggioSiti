@@ -1,7 +1,7 @@
 <?php
     class Login {
         //@TODO: ELIMINARE dai diagrammi la presenza di Utente nel Login e verificare
-        private $db;
+        $db;
 
         function __construct($DB) {
             $this->db = $DB;
