@@ -1,7 +1,7 @@
 <?php
 class AmministrazioneSensore
 {
-    private $db;
+    $db;
 
     function __construct($DB)
     {
