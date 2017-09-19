@@ -1,6 +1,6 @@
 <?php
     class ManagerDB {
-        private $_db;
+        $_db;
         static $_instance;
 
         public static function getInstance() {
