@@ -1,6 +1,6 @@
 <?php
 class AmministrazioneCliente {
-    private $db;
+    $db;
     function __construct($DB) {
         $this->db = $DB;
     }
