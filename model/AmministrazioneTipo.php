@@ -4,7 +4,7 @@ class AmministrazioneTipo
 {
 
 
-    private $db;
+    $db;
 
     function __construct($DB)
     {
