@@ -2,10 +2,14 @@
 
 class Sensore
 {
-    private $ID;
-    private $Marca;
-    private $Tipo;
-    private $IDsito;
+//     private $ID;
+//     private $Marca;
+//     private $Tipo;
+//     private $IDsito;
+    $ID;
+    $Marca;
+    $Tipo;
+    $IDsito;
 
     public function __get($var) {
         switch($var) {
