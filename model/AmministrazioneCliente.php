@@ -32,7 +32,7 @@ class AmministrazioneCliente {
             $param = array();
             foreach($utente as $key => $value) {
                 if ($param[$key] == ':Password')
-                    $param[$key] = md5($utente->_get($key));
+                    $param[$key] = $utente->_get($key);
                 else
                     $param[$key] = $utente->_get($key);
             }
