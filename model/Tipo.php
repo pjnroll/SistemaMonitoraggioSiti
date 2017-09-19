@@ -2,9 +2,9 @@
 
 class Tipo
 {
-    private $Nome;
-    private $DatiContenuti;
-    private $Posizione;
+    $Nome;
+    $DatiContenuti;
+    $Posizione;
 
     public function __get($var) {
         switch($var) {
