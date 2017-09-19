@@ -2,7 +2,7 @@
 
 class AmministrazioneSito
 {
-    private $db;
+    $db;
 
     function __construct($DB)
     {
